@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ESP8266_jdunmire)(type Github)(uri https://github.com/jdunmire/kicad-ESP8266)(options "")(descr ""))
+  (lib (name circuit)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+)
