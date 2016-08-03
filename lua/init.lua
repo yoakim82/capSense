@@ -2,6 +2,10 @@
 t = 0
 retval = false
 
+function log()
+    print("log")
+end
+
 -- connect to Wifi network
 function connWifi(ssid, pwd, timeout)
     wifi.setmode(wifi.STATION)
@@ -59,13 +63,13 @@ function startup()
   end
   -- otherwise, start up
   print("in startup")
-  connWifi("koala", "gurksallad", 5)
+  dofile("wifi.lua")
   --dofile("bc.lua")
-  dofile("rdtemp.lua")
-  dofile("pushdata.lua")
+  --dofile("rdtemp.lua")
+  --dofile("pushdata.lua")
   dofile("stats.lua")
-  dofile("log.lua")
-  node.setcpufreq(node.CPU160MHZ)
+  --dofile("log.lua")
+  --node.setcpufreq(node.CPU160MHZ)
   print("Startup completed")
   
 end

@@ -1,4 +1,4 @@
-update=Sat 12 Mar 2016 23:52:49 CET
+update=tor  7 jul 2016 00:05:03
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=valves
 LibName30=kicad-ESP8266/ESP8266
 LibName31=esp8266-dht22-sensor/hardware/dht22
 LibName32=esp8266-dht22-sensor/hardware/ds18s20
+LibName33=ht7333
